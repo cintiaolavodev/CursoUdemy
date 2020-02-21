@@ -1,0 +1,213 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+ 
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 350px;
+	
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 75%;
+  /* Set the fixed height of the footer here */
+  height: 280px;
+  line-height: 30px; /* Vertically center the text there */
+  border-top: 1px solid darkgray;
+  border-bottom: 1px solid darkgray;
+	
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+    padding: 85px 0px 0px;
+	font-size: 13px;
+}
+body{
+	
+	font-family: "Raleway", sans-serif;
+}
+
+code {
+  font-size: 80%;
+}
+logo{
+	
+	color: black;
+}
+
+.menu{
+	border-left: 1px solid darkgray;
+	text-align:center;
+}
+
+.texo_home{
+	background-color: white;
+	font-size: 48px;
+	margin-top: 200px;
+	padding: 0px;
+	max-width: 500px;
+	opacity: 0.8;
+    width: 700px;
+	
+}
+.meu_home{
+	background-image: url("../../img/bg_home.jpg");
+	background-position: bottom;
+	width: 100%;
+	height: 600px;
+	margin-top: 100px;
+	margin-bottom: 30px;
+	
+	
+}
+ .menu a{
+	text-decoration: none;
+	
+}
+.telefone{
+	border: 2px solid rgb(205,205,205);
+	height: 120px;
+	width: 290px;
+	margin: 0 auto;
+	background-color: rgb(250,250,250);
+	padding: 20px;
+	margin-top: 40px;
+}
+.telefone span{
+	
+	color: rgb(70,70,70);
+}
+.container{
+	padding-top: 39px;
+	margin: 0auto;
+	
+}
+p{
+	line-height: 25px;
+	color: #000;
+}
+/*pagina contato*/
+h1{
+	font-size: 48px;
+	text-align: center;
+	font-weight: bold;
+}
+.contato_destaque h3{
+	color: rgb(84,84,84);
+	font-weight: bold;
+}
+.contato_destaque p{
+	font-size: 25px;
+}
+.contato_horario, .contato_horario h3, .contato_destaque p{
+	font-size: 24px;
+
+}
+.contato_horario h3{
+	font-weight: bold;
+	color: black;
+
+}
+.contato_horario p{
+	color: rgb(120,120,120);
+}
+/*Pafina de contato formulario*/
+.container_form_contato{
+font-size: 18px;
+margin-top: 150px;
+
+
+}
+.container_form_contato textarea{
+	width: 78%;
+	height: 240px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+
+
+}
+
+.container_form_contato textarea,
+.container_form_contato input[type=text],
+.container_form_contato input[type=email]{
+	background-color: rgb(246,246,246);
+	padding: 20px;
+	border:1px solid rgb(220,220,220);
+	color: rgb(202,202,202);
+
+}
+.container_form_contato input[type=text],
+.container_form_contato input[type=email]{
+	width: 197px;
+	}
+.container_form_contato input[type=email]{
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.container_form_contato input[type=submit]{
+	color: white;
+	background-color: rgb(229,181,83);
+	border: none;
+	padding: 20px 35px;
+}
+
+
+/*Smartphone*/
+.@media (max-width: 768px) {
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:hover {
+
+		font-size: 12px;
+		background-color: white;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	border:none;
+}
+.contato_destaque p{
+		font-size: 18px;
+	}
+.container_form_contato input[type=text],
+.container_form_contato input[type=email]{
+	width: 100%;
+}
+.container_form_contato input[type=email]{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+}
+
+/*Tablets*/
+@media (min-width: 769px) and (max-width: 992px){
+	.nav>li>a{
+		font-size: 12px;
+		padding: 7px;
+		margin-top: 10px;
+		}
+		footer{
+			height: 650px; !important;
+			text-align: center;  !important;
+		}
+	.contato_destaque p{
+		font-size: 12px;
+	}
+
+.container_form_contato input[type=text],
+.container_form_contato input[type=email]{
+	width: 190px;
+}
+}
+/**Desktop Medio **/
+@media (min-width: 992px) and (max-width: 1200px){
+.container_form_contato input[type=text],
+.container_form_contato input[type=email]{
+width:210px;
+
+}
