@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+@font-face{
+    font-family:"Florentia";
+    src:url("fonts/Florentia-Thin-trial.ttf");
+}
+
+.clearfix{
+        clear: both;
+    }
+
+    body{
+        margin: 0px;
+        font-family: "Raleway", "Florentia",  "sans-serif";
+    }
+
+
+    .barra_superior{
+        border-bottom: 1px solid  rgb(204,204,204);
+        color: rgb(187,187,187);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 14px;
+        padding-right: 180px;
+    }
+
+    .container{
+        max-width:960px;
+        margin: 0 auto;
+        width: 100%;
+        
+}
+
+    nav{
+        color: rgb(187,187,187);
+        font-size: 14px;
+        float: right;
+        margin-top: 46px;
+    }
+    nav a{
+        color: rgb(187,187,187);
+        font-size: 14px;
+        text-decoration:none;
+}
+    nav a.btn_Destaque{
+        margin-left: 0px;
+    }
+    .btn_Destaque, .metade input[type=submit]{
+        border: none;
+        background-color: rgb(255,77,77);
+        color: white;
+        border-radius: 4px;
+        text-decoration: none;
+        font-size: 14px;
+        padding: 12px 40px;
+        
+
+ }
+
+    .section01{
+        height: 640px;
+        color: white;
+        background-image: url(../img/Home.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: rgb(164,164,164);
+    }
+    .section01 p.titulo {
+        font-size: 48px;
+        padding-top: 120px;
+        text-align: left;
+
+    }
+    .section01 p {
+
+        font-size: 24px;
+        padding-bottom: 30px;
+        line-height: 120%;
+        padding:10px
+    }
+    .section02 img {
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .section02 {
+        border-bottom: 1px solid rgb(204,204,204);
+    }
+    .section02 p {
+        font-size: 30px;
+        text-align: center;
+
+    }
+    .section03 {
+        background-color: rgb(239, 243, 249);
+        height: 664px;
+        background-image: url(../img/Home2.png);
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+    .section03 p {
+        font-size: 54px;
+        line-height: 120%;
+        color: rgb(102, 102, 102);
+        padding-top: 90px;
+        padding-left: 0px;
+      
+      
+     
+
+    }
+    .largura30{
+        width: 42%;
+        float:left;
+        background-color: rgb(239,243,249);
+        line-height: 213px;
+    }
+
+    .direitos_reservados{
+        background-color: rgb(255,77,77);
+        color: white;
+        text-align: center;
+        padding-top: 45px;
+        padding-bottom: 45px;
+
+    }
+    .direitos_reservados a {
+        color: white;
+    }
+    .um_terco{
+        float: left;
+        width: 33%;
+        color: rgb(136,136,136);
+        padding-bottom: 30px;
+        padding-top: 30px;
+        padding-left: 
+    }
+    .um_terco .logo{
+        width: 100%;
+
+    }
+    .um_terco, .um_terco a {
+        color: rgb(136,136,136);
+    }
+    .um_terco img{
+
+        width: 35px;
+    }
+    .margem_esquerda{
+        margin-left: 10px;
+    }
+
+  .metade{
+          height: 660px;
+          text-align: center;
+          line-height: 150%;
+          border: solid  rgb(239,243,249);
+          color: rgb(120,120,128);
+          padding-top: 90px;
+    
+     
+}
+
+
+
+.metade input[type=text], textarea, :focus{
+       background-color:lightblue;
+       border: none;
+       border-bottom: 1px rgb(85,85,85);
+       width: 30%;
+       border-radius: 4px;
+       background-color:rgb(245,245,245);
+       padding: 12px;
+       font-family: "Raleway", "Florentia",  "sans-serif";
+    
+}
+
+.metade input[type=submit]{
+        float: center;
+        background-color: rgb(254,77,77);
+        font-weight: 700;
+        padding: 15px 23px 15px 23px;
+        line-height: 22px;
+        border-radius: 4px;     
+   
+ }
+
+   .metade img {
+
+       width: 35px;
+    }    
+
+.modal{
+        display: none;
+        position: fixed;
+        width: 400px;
+        min-height: 200px;
+        background-color: white;
+        top: 50%;
+        margin-top: -100px;
+        left: 50%;
+        margin-left: -200px;
+        padding: 20px;
+        cursor: pointer;
+        border-radius: 4px;
+}
+.modal input[type=text] {
+    
+        border: none;
+        border-bottom: 1px solid lightgray;
+        width: 63%;
+        background-color: #FAFAFA;
+        padding: 10px;
+        width: 95%;
+}
+
+.modal a{
+    
+       float: right;
+       font-size: 24px;
+       text-decoration: none;
+       color: black;
+}
+
+span.nao_valido{
+        color: red;
+        display: none;
+}
+
+input.nao_valido, textarea.nao_valido{
+    
+      border-bottom: 1px solid red !important;
+}
+
+/*pagina politica de privacidade*/
+.politica  {
+        font-family: "Raleway", "Florentia",  "sans-serif";
+        margin-left: 50px;
+        text-align: center, justify;
+        margin-right: 50px;
+        display: block;
+        border: solid  rgb(239,243,249);
+        line-height: 30px;
+    
+    
+}          
+.politica h2{
+        font-family: "Raleway", "Florentia",  "sans-serif";
+        text-align: left;
+        color:darkgray;
+        
+}
+/*pagina termos de uso*/
+.termo  {
+        font-family: "Raleway", "Florentia",  "sans-serif";
+        margin-left: 50px;
+        text-align: center, justify;
+        margin-right: 50px;
+        display: block;
+        border: solid  rgb(239,230,249);
+        line-height: 30px;
+        
+        
+
+}
+
+
+.termo h2{
+        font-family: "Raleway", "Florentia",  "sans-serif";
+        text-align: left;
+        color: solid  rgb(239,243,249);
+    }
+    
+  
+    
+.texto{
+    color: gray;
+    float: center;
+    font-size: 12px;
+    line-height: 12px;
+}
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+/* TAblets e Computadores*/
+@media screen and( min-width: 481px) and (max-width: 1366px){
+    
+ }
+/* Smartphones*/
+ @media screen and (max-width:  480px){
+     
+     
+ .barra_superior .container{
+             margin-left: 100px;
+             text-align: center;
+        
+     } 
+     
+   .logo{
+            width: 100%;
+        
+        }
+
+    nav{
+            float: none;
+            text-align: center;
+            font-size: 12px;
+            line-height: 30px;
+      
+            
+    }
+                     
+ .section01 p, .section01 .btn_Destaque {
+            margin-left: 20px;
+            line-height: 40px;
+            text-align: center;
+
+    }
+ .section03 {
+            background-image:none;
+            height: 450px;
+            text-align: center;
+            border-bottom: 1px solid rgb(204,204,204);
+        }
+ .section03 p {
+            padding-top: 10px;
+    
+    }
+     
+       
+     section01 .btn_Destaque{
+         line-height: 19px;
+     }
+  .largura30{
+            width: 100%;
+            margin-left: 20px;
+            height: 450px;
+            line-height: 50px;
+           
+
+         }
+   .um_terco{
+            width: 100%;
+            border-bottom: 1px solid rgb(204,204,204);
+            padding-left: 20px;
+            text-align: center;
+        }
+  .margem_esquerda{
+            margin-left: 0px;
+            text-align: center;
+        
+        }
+  .um_terco .logo{
+            width: 50%;
+        }
+
+   .container_logo{
+
+            text-align: center;
+       
+       
+        }
+     
+     
+}
+    
+   
